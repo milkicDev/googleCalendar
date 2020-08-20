@@ -173,11 +173,11 @@
                 'description': phone,
                 'start': {
                     'dateTime': moment(dateStart + " " + timeStart, 'yyyy-MM-DD HH:mm').toISOString(),
-                    'timeZone': 'America/Los_Angeles'
+                    'timeZone': 'Europe/Belgrade'
                 },
                 'end': {
                     'dateTime': moment(dateStart + " " + timeStart, 'yyyy-MM-DD HH:mm').add(1, 'd').toISOString(),
-                    'timeZone': 'America/Los_Angeles'
+                    'timeZone': 'Europe/Belgrade'
                 },
                 'recurrence': [
                     'RRULE:FREQ=DAILY;COUNT=2'
